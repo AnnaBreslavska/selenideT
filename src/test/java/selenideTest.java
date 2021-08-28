@@ -17,5 +17,6 @@ public class selenideTest {
     $("td[class='product'] div[class='attributes']")
             .should(Condition.text("HDD: 320 GB"))
             .should(Condition.text("RAM: 8GB [+$60.00]"));
+    ///
     }
 }
